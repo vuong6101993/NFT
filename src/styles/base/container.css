@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1584px;
+  padding: 0 18px;
+  margin: 0 auto;
+
+  @include from(md) {
+    padding: 0 30px;
+  }
+
+  @include from(lg) {
+    padding: 0 72px;
+  }
+}
+
+.container--full {
+  max-width: 100%;
+  padding: 0;
+}
+
+.container--three-up {
+  @include to(sm) {
+    padding: 0;
+  }
+}
+
+.container--footer {
+  padding: 0 30px;
+}
