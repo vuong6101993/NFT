@@ -81,7 +81,7 @@ const AppraisalRequest = () => {
                     <label className="relative">External link</label>
                     <span className="block text-[14px] font-[400]">
                       NFT Art Marketplace ZEZI will include a link to this URL
-                      on this item's detail page, so that users can click to
+                      on this item&#39;s detail page, so that users can click to
                       learn more about it. You are welcome to link to your own
                       webpage with more details.
                     </span>
@@ -129,7 +129,7 @@ const AppraisalRequest = () => {
                   <div>
                     <label className="relative">Description</label>
                     <span className="block text-[14px] font-[400]">
-                      The description will be included on the item's detail page
+                      The description will be included on the item&#39;s detail page
                       underneath its image. Markdown syntax is supported.
                     </span>
                   </div>

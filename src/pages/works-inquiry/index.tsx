@@ -9,6 +9,7 @@ import {
   Row,
   Select,
   Upload,
+  Image
 } from "antd";
 import WorkInquiryWrapper from "./styles";
 const { Content, Footer, Sider } = Layout;
@@ -43,7 +44,7 @@ const WorkInquiry = () => {
               List for sale
             </h1>
             <div className="flex flex-row items-center mb-[24px]">
-              <img
+              <Image
                 className="w-[310px] h-[202px]"
                 src={"images/card.png"}
                 alt="card"

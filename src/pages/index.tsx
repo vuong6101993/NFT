@@ -9,6 +9,7 @@ import Header from "@/components/Header"
 import Intro from "./homepage/components/Intro"
 import GridCard from "./homepage/components/GridCard"
 import ListGridCard from "./homepage/components/ListGridCard"
+import Table from "./homepage/components/Table"
 const notoSansJp = Noto_Sans_JP({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700'],
@@ -34,7 +35,8 @@ export default function Home() {
         <Content className='container'>
           <Intro />
           <GridCard />
-          <ListGridCard />
+          {/* <ListGridCard /> */}
+          <Table />
           
           <Button type="primary">Primary Button</Button>
           <Button>Primary Button</Button>

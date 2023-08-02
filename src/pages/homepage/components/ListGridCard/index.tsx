@@ -57,13 +57,11 @@ const GridCard = (props: any) => {
             key: id,
             children: (
               <>
-                {
-                  item.data.map((item, index) => {
-                    return {
-                      <p>{item.price}</p>
-                    }
-                  })
-                }
+                item.data.map((item, index) => {
+                  return {
+                    <p>{item.price}</p>
+                  }
+                })
               </>
               // <p>{item.data[0].price}</p>
               // <Row gutter={16}>
